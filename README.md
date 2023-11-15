@@ -1,3 +1,3 @@
 # keep_klone
 
-A new Flutter project.
+Flutter clone of Google Keep.
