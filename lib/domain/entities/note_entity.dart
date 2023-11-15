@@ -16,11 +16,11 @@ class NoteEntity extends Equatable {
   //TODO: Add support for recordings
 
   NoteEntity(
-      {id,
+      {String? id,
       this.title = "",
       this.description = "",
-      createdAt,
-      modifiedAt,
+      DateTime? createdAt,
+      DateTime? modifiedAt,
       this.color = Colors.white,
       this.isTickbox = false})
       : id = id ?? UniqueKey().toString(),
